@@ -1,0 +1,11 @@
+C:\Users\vcinonyx\source\repos\oop_laba1\oop_laba1\obj\Debug\netcoreapp3.1\laba1_CSh.csprojAssemblyReference.cache
+C:\Users\vcinonyx\source\repos\oop_laba1\oop_laba1\obj\Debug\netcoreapp3.1\laba1_CSh.AssemblyInfoInputs.cache
+C:\Users\vcinonyx\source\repos\oop_laba1\oop_laba1\obj\Debug\netcoreapp3.1\laba1_CSh.AssemblyInfo.cs
+C:\Users\vcinonyx\source\repos\oop_laba1\oop_laba1\bin\Debug\netcoreapp3.1\laba1_CSh.exe
+C:\Users\vcinonyx\source\repos\oop_laba1\oop_laba1\bin\Debug\netcoreapp3.1\laba1_CSh.deps.json
+C:\Users\vcinonyx\source\repos\oop_laba1\oop_laba1\bin\Debug\netcoreapp3.1\laba1_CSh.runtimeconfig.json
+C:\Users\vcinonyx\source\repos\oop_laba1\oop_laba1\bin\Debug\netcoreapp3.1\laba1_CSh.runtimeconfig.dev.json
+C:\Users\vcinonyx\source\repos\oop_laba1\oop_laba1\bin\Debug\netcoreapp3.1\laba1_CSh.dll
+C:\Users\vcinonyx\source\repos\oop_laba1\oop_laba1\bin\Debug\netcoreapp3.1\laba1_CSh.pdb
+C:\Users\vcinonyx\source\repos\oop_laba1\oop_laba1\obj\Debug\netcoreapp3.1\laba1_CSh.dll
+C:\Users\vcinonyx\source\repos\oop_laba1\oop_laba1\obj\Debug\netcoreapp3.1\laba1_CSh.pdb

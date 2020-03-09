@@ -1,4 +1,0 @@
-﻿  main.cpp
-C:\Users\vcinonyx\source\repos\OOP_LABA_1\OOP_LABA_1\main.cpp(22,1): warning C4554: "<<": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
-C:\Users\vcinonyx\source\repos\OOP_LABA_1\OOP_LABA_1\main.cpp(23,1): warning C4554: "<<": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
-  OOP_LABA_1.vcxproj -> C:\Users\vcinonyx\source\repos\OOP_LABA_1\Debug\OOP_LABA_1.exe

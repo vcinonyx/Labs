@@ -1,0 +1,5 @@
+
+*.db
+*.ipch
+Cpp/Lab_1_cpp/.vs/OOP_LABA_1/v16/.suo
+*.tlog
