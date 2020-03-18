@@ -1,6 +1,5 @@
 #include <iostream>
 
-//заміни заданого одного символу в тексті   заданим іншим.
 
 using namespace std;
 
