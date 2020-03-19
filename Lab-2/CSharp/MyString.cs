@@ -49,15 +49,13 @@ namespace CSharp
             return counter;
         }
 
-        public void CharReplace(string a, string b)
+        public void CharReplace(char a, char b)
         {
-            char[] sub1 = a.ToCharArray();
-            char[] sub2 = b.ToCharArray();
             for(int i = 0; i<str.Length; i++)
             {
-                if(str[i] == sub1[0])
+                if(str[i] == a)
                 {
-                    str[i] = sub2[0];
+                    str[i] = b;
                 }
             }
         }

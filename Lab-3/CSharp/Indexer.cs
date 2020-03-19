@@ -9,13 +9,18 @@ namespace lab3
         private char[,] Matrix;
         private int intNumb;
         private string column;
+
         public Indexer()
         {
             n = 5;
             Matrix = new char[n, n];
         }
-
-
+        
+        public Indexer(int r)
+        {
+            n = r;
+            Matrix = new char[r, r];
+        }
         public void FillMatrix()
         {
             Random random = new Random();
@@ -23,7 +28,7 @@ namespace lab3
             {
                 for (int j = 0; j < n; j++)
                 {
-                    int num = random.Next(30, 80);
+                    int num = random.Next(48, 57);
                     Matrix[i, j] = (char)(num);
                     if (Matrix[i, j] >= 48 && Matrix[i, j] <= 57)
                     {
@@ -32,23 +37,6 @@ namespace lab3
                 }
             }
         }
-
-        public void PrintMatrix()
-        {
-            Console.WriteLine();
-
-            for (int i = 0; i < n; i++)
-            {
-                for (int j = 0; j < n; j++)
-                {
-                    Console.Write(Matrix[i, j] + "\t");
-                }
-                Console.WriteLine();
-            }
-        }
-
-
-
         public int IntNumb => intNumb;
         public string this[int index]
         {
