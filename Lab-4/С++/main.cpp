@@ -10,8 +10,9 @@ int main()
 	T1.GetInfo();
 	T2.GetInfo();
 	T3.GetInfo();
-	T3 = T3 * 2;
-	T1 = T3 + T2;
+	T3 = 2 * T3;
+	//T3 =T3 * 2;
 	T3.GetInfo();
+	T1 = T2 + T3;
 	T1.GetInfo();
 }

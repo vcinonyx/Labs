@@ -55,16 +55,9 @@ double Triangle::Square()
 		return S;
 	}
 
-
 Triangle Triangle::operator+(Triangle& T)
 	{
-		Triangle result(this->X1 + T.X1, this->Y1 + T.Y1, this->X2 + T.X2, this->Y2 + T.Y2, this->X3 + T.Y3, this->Y3 + T.Y3);
-		return result;
-	}
-
-Triangle Triangle::operator *(double factor)
-	{
-		Triangle result(this->X1 * factor, this->Y1 * factor, this->X2 * factor, this->Y2 * factor, this->X3 * factor, this->Y3 * factor);
+		Triangle result(X1 + T.X1, Y1 + T.Y1, X2 + T.X2, Y2 + T.Y2, X3 + T.Y3, Y3 + T.Y3);
 		return result;
 	}
 
@@ -75,3 +68,15 @@ void Triangle::GetInfo()
 		cout << "Square : " << Square() << "\n\n";
 	}
 ;
+
+Triangle operator *(Triangle& T, double factor)
+{
+	Triangle result(T.X1 * factor, T.Y1 * factor, T.X2 * factor, T.Y2 * factor, T.X3 * factor, T.Y3 * factor);
+	return result;
+}
+
+Triangle operator *(double factor, Triangle& T) 
+{
+	Triangle result(T.X1 * factor, T.Y1 * factor, T.X2 * factor, T.Y2 * factor, T.X3 * factor, T.Y3 * factor);
+	return result;
+}
