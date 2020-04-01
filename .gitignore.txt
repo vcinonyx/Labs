@@ -1,4 +1,0 @@
-Cpp/OOP_LABA_1/.vs/*
-CSharp/oop_laba_1/.vs/*
-
-
