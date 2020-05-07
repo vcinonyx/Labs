@@ -6,7 +6,7 @@ namespace CSharp
     {
         static void Main()
         {
-            Point[] ABCD = new Point[4]
+            Point[] ABCD  = new Point[4]
             {
                 new Point(1, 0),
                 new Point(0, 0),
