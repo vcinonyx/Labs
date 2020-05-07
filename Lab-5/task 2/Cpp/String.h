@@ -1,6 +1,7 @@
 #include <cstring>
 #include <string.h>
 #include <iostream>
+#include <math.h>
 
 class BaseString;
 class CapitalString;
