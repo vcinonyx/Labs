@@ -34,9 +34,14 @@ Triangle::Triangle(Triangle& copyTriangle)
 
 
 double Triangle::Side(double x1, double y1, double x2, double y2)
+{	
+	double side = (pow((x1 - x2), 2) + pow((y1 - y2), 2));
+	if (side == 0)
 	{
-		return sqrt(pow((x1 - x2), 2) + pow((y1 - y2), 2));
+		throw "Wrong Coordinates";
 	}
+	return sqrt(side);		
+}
 
 double Triangle::Perimeter()
 	{
@@ -80,3 +85,4 @@ Triangle operator *(double factor, Triangle& T)
 	Triangle result(T.X1 * factor, T.Y1 * factor, T.X2 * factor, T.Y2 * factor, T.X3 * factor, T.Y3 * factor);
 	return result;
 }
+

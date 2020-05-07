@@ -33,12 +33,7 @@ namespace CSharp
             Y2 = y2;
             X3 = x3;
             Y3 = y3;
-        }
-        public void GetInfo()
-        {
-            Console.WriteLine("Vertices: (" + X1 + "; " + Y1 + ")  (" + X2 + "; " + Y2 + ")  (" + X3 + "; " + Y3+ ")");
-            Console.WriteLine("Perimeter: " + Perimeter());
-            Console.WriteLine("Square : " + Square() + "\n");
+            
         }
 
         private double Side(double X1, double Y1, double X2, double Y2)
@@ -46,7 +41,7 @@ namespace CSharp
             double side = ((X2 - X1) * (X2 - X1) + (Y2 - Y1) * (Y2 - Y1));
             if (side == 0)
             {
-                throw new Exception("Wrong Coordinates");
+                throw new ArgumentException("Wrong Coordinates");
             }
             return Math.Sqrt(side);
         }
@@ -70,8 +65,20 @@ namespace CSharp
 
         public static Triangle operator *(Triangle T, double factor)
         {
+            if (factor == 0)
+            {
+                throw new ArgumentException(" Factor = 0 ! ");
+            }
             Triangle result = new Triangle(T.X1* factor, T.Y1 * factor, T.X2 * factor, T.Y2 * factor, T.X3 * factor, T.Y3 * factor);
             return result;
+        }
+        public static Triangle operator *(double factor, Triangle T)
+        {
+            if ( factor == 0)
+            {
+                throw new ArgumentException(" Factor = 0 ! ");
+            }
+            return T*factor;
         }
 
         public static Triangle operator +(Triangle T1, Triangle T2)
