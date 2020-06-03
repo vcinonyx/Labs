@@ -2,6 +2,7 @@
 
 class Triangle {
 
+	
 private:
 
 	double X1, Y1, X2, Y2, X3, Y3;

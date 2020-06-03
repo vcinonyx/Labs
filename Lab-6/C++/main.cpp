@@ -1,7 +1,5 @@
 #include "Expression.h"
 
-using namespace std;
-
 int main()
 {    
     Expression example[] = { Expression(),  Expression(1, 4, 2, 45),  Expression(0, 0, 0, 41) };  
