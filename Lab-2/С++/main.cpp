@@ -1,7 +1,5 @@
 #include <iostream>
 
-//заміни заданого одного символу в тексті   заданим іншим.
-
 using namespace std;
 
 
@@ -11,10 +9,10 @@ public:
     char* str;
     int length;
 
-    MyString()
+    MyString(int len)
     {
-        length = 25;
-        str = new char[length];
+        length = len;
+        str = new char[lenth];
     }
 
     MyString(char* str)
